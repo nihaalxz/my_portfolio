@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" href="pic2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "TqRRp-RiAwLPFERMo",
+        });
+      })();
+    </script>
+  </head>
+
+  <body class="bg-white">
+    <!-------------------------------------------------NAVBAR-------------------------------------------->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-light sticky-top"
+        style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)"
+        id="nav-bar"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bolder" href="#home-s"
+            ><span class="fs-3 fw-normal">Nihaal.dev</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fw-normal text-black fs-5" href="#home-s"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-normal text-black fs-5" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-normal text-black fs-5" href="#skills-s"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-normal text-black fs-5" href="#project-s"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <button
+                  class="btn btn-pill btn-dark btn-sm"
+                  id="btn-contact"
+                >
+                  <a
+                    class="nav-link fw-normal text-white fs-6"
+                    href="#contact-me"
+
+                    >Contact</a
+                  >
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--------------------------------------------------------HOME------------------------------------------------------------>
+    <section
+      style="background-color: hsla(49, 69%, 94%, 0.918); height: 100vh"
+      id="home-s"
+    >
+      <div
+        class="container d-flex justify-content-center align-items-center h-100"
+        style="background-color: hsla(49, 69%, 94%, 0.918)"
+      >
+        <div class="row w-100">
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="text">
+              <h1 class="fw-bolder">
+                Web Developer <span class="wave-hand">👋</span>
+              </h1>
+              <p class="fs-4 fw-light">
+                Hi, I'm Nihaal Mohammed Nazer M.<br />
+                A passionate and aspiring Web developer based in Perinthalmanna,
+                Kerala, India 📍.
+              </p>
+              <div class="d-flex gap-3">
+                <a
+                  href="https://www.linkedin.com/in/nihaal-mohammed-nazer-5a059b213/"
+                  target="_blank"
+                  aria-label="LinkedIn Profile"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="currentColor"
+                    class="bi bi-linkedin"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/nihaalxz"
+                  target="_blank"
+                  aria-label="GitHub Profile"
+                  class="text-black"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <a href="NIHAAL RESUME 2024 0.1.pdf" download>
+                <button class="btn btn-dark mt-3">Get Resume</button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="ILBZ8385.JPG"
+              alt="Profile Picture"
+              class="rounded-circle img-fluid"
+              id="profile_pic"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--........................................................About...................................................-->
+
+    <section
+      id="about"
+      style="background-color: rgba(255, 255, 235, 0.37); border-radius: 10px"
+    >
+      <div class="container text-center mt-0">
+        <div class="row">
+          <div
+            class="col-md-8 d-flex flex-column justify-content-center align-items-center text-md-left text-center"
+          >
+            <p class="text-black mt-4 fw-normal fs-1">About me</p>
+            <p class="mt-5 fw-normal fs-2">
+              Web Developer <br />based in Perinthalmanna, Kerala, India 📍.
+            </p>
+            <p style="text-align: justify" class="fs-4 fw-light">
+              Hi, my name is
+              <span class="fw-bolder">Nihaal Mohammed Nazer M.</span>
+              I am from Perinthalmanna and hold a Bachelor of Science degree in
+              Computer Science from Calicut University, which I earned at MES
+              Kalladi College Mannarkkad. I have a strong passion for web
+              development and am eager to deepen my knowledge and skills in this
+              field in the coming years.
+              <br />
+              <br />
+              My main stack currently is html/css in combination with Bootstrap
+              CSS and JavaScript.
+            </p>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <img src="pic2.jpg" class="rounded img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----EDUCATION---->
+
+    <section class="container my-2" id="education">
+      <div class="row text-center">
+        <div class="col-12 my-5">
+          <p class="text-black mt-4 fw-normal fs-1">Education</p>
+        </div>
+        
+        <div class="col-12 mb-5">
+          <p class="text-black w-100 mt-5">
+            <span class="fw-bold fs-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-mortarboard"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"
+                />
+                <path
+                  d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z"
+                />
+              </svg>
+              <span class="fw-semibold">Undergraduation:</span>
+            </span>
+            <span class="fs-4 fw-normal"
+              >Kalladi College Mannarkkad (2021-2024)</span
+            >
+          </p>
+          <p class="text-black w-100 my-5">
+            <span class="fw-bold fs-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-mortarboard"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"
+                />
+                <path
+                  d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z"
+                />
+              </svg>
+              <span class="fw-semibold">Higher Secondary:</span>
+            </span>
+            <span class="fs-4 fw-normal"
+              >Govt Model High School Perinthalmanna (2019-2021)</span
+            >
+          </p>
+          <p class="text-black w-100 my-5">
+            <span class="fw-bold fs-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                fill="currentColor"
+                class="bi bi-highlighter"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065zM5.293 13.5 2.5 10.707v1.586L3.707 13.5z"
+                />
+              </svg>
+              <span class="fw-semibold">High School:</span>
+            </span>
+            <span class="fs-4 fw-normal">AEMHS Amminikkad (2019)</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------SKILLS------------------------------------------>
+    <section id="skills-s">
+      <div class="container">
+        <div class="row text-center my-5">
+          <div class="col-12">
+            <p class="text-black mt-4 fw-normal fs-1">My Skills</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-6 col-md-2 my-5 text-center skill-item">
+            <img src="html1.svg" class="img-fluid w-50" alt="HTML" />
+            <p class="fw-semibold fs-6">HTML</p>
+          </div>
+          <div class="col-6 col-md-2 my-5 text-center skill-item">
+            <img src="css.svg" class="img-fluid w-50" alt="CSS" />
+            <p class="fw-semibold fs-6">CSS</p>
+          </div>
+          <div class="col-6 col-md-2 my-5 text-center skill-item">
+            <img src="js.svg" class="img-fluid w-50" alt="JavaScript" />
+            <p class="fw-semibold fs-6">JavaScript</p>
+          </div>
+          <div class="col-6 col-md-2 my-5 text-center skill-item">
+            <img src="bs.svg" class="img-fluid w-50" alt="Bootstrap" />
+            <p class="fw-semibold fs-6">Bootstrap</p>
+          </div>
+          <div class="col-6 col-md-2 my-5 text-center skill-item">
+            <img src="python.svg" class="img-fluid w-50" alt="Python" />
+            <p class="fw-semibold fs-6">Python</p>
+          </div>
+          <div class="col-6 col-md-2 my-5 text-center skill-item">
+            <img src="figma.svg" class="img-fluid w-50" alt="Figma" />
+            <p class="fw-semibold fs-6">Figma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------------Projects--------------------------------->
+
+    <section id="project-s">
+      <div class="container my-5">
+        <div class="row text-center">
+          <div class="col-12 mb-4">
+            <p class="text-black mt-4 fw-normal fs-1">My Projects</p>
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <div class="bg-dark text-light p-3 rounded">
+              <img
+                src="campus_1.png"
+                class="img-fluid rounded mb-2"
+                alt="CampUS app interface"
+              />
+              <a
+                href="https://github.com/Hishammpsnhn/anti_ragging"
+                target="_blank"
+                class="btn btn-danger my-3"
+              >
+                View Source Code
+              </a>
+              <p class="fs-5 fw-semibold">CampUS</p>
+              <p>
+                CampUS is an app designed to enhance student welfare and campus
+                safety. It provides features for reporting ragging incidents,
+                seeking mentorship, and addressing infrastructure issues, aiming
+                to improve.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="bg-dark text-light p-3 rounded">
+              <img
+                src="airbnb.jpg"
+                class="img-fluid rounded mb-2"
+                alt="Airbnb Clone interface"
+              />
+              <a
+                href="https://github.com/nihaalxz/airbnb_home"
+                target="_blank"
+                class="btn btn-danger my-3"
+              >
+                View Source Code
+              </a>
+              <p class="fs-5 fw-semibold">Airbnb Clone</p>
+              <p>
+                An Airbnb clone that showcases a variety of unique
+                accommodations worldwide, from cozy apartments to luxurious
+                villas. It provides a platform for hosts to list properties and
+                for guests to book stays.
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <div class="bg-dark text-light p-3 rounded">
+              <img
+                src="bankbalance.png"
+                class="img-fluid rounded mb-2"
+                alt="Bank Balance Checker interface"
+              />
+              <a
+                href="https://github.com/nihaalxz/bank_balance"
+                target="_blank"
+                class="btn btn-danger my-3"
+              >
+                View Source Code
+              </a>
+              <p class="fs-5 fw-semibold">Bank Balance Checker</p>
+              <p>
+                A simple webpage for managing bank accounts. It allows users to
+                view their balance, deposit funds, and withdraw money with an
+                intuitive interface for easy personal banking.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="bg-dark text-light p-3 rounded">
+              <img
+                src="Screenshot (73).png"
+                class="img-fluid rounded mb-2"
+                alt="Facebook login page interface"
+              />
+              <a
+                href="https://github.com/nihaalxz/facebook-login-page"
+                target="_blank"
+                class="btn btn-danger my-3"
+              >
+                View Source Code
+              </a>
+              <p class="fs-5 fw-semibold">Facebook Login Page</p>
+              <p>
+                A sleek and user-friendly login page featuring secure input
+                fields, a "Forgot Password?" link, and responsive design for a
+                seamless user experience across all devices.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------Contact--------------------------------------------------->
+    <section id="contact-me" class="py-5">
+      <div class="container bg-light shadow-lg rounded p-5">
+        <div class="row">
+          
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center align-items-start text-center text-md-left"
+          >
+            <h2 class="fs-1 text-primary mb-3">Hi there,</h2>
+            <p class="fs-5 fw-semibold text-dark">
+              If you have any questions or just want to say hi, feel free to
+              reach out. I'm here to help and would love to hear from you!
+            </p>
+          </div>
+          
+          <div class="col-md-6">
+            <h1 class="text-primary mb-4">Let's Connect!</h1>
+
+            <div class="form-group mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="name"
+                placeholder="Enter your name"
+                name="name"
+              />
+            </div>
+            <div class="form-group mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input
+                type="email"
+                class="form-control form-control-lg"
+                id="email"
+                placeholder="Enter your email"
+                name="email"
+              />
+            </div>
+            <div class="form-group mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                id="message"
+                rows="4"
+                class="form-control form-control-lg"
+                placeholder="Enter your message"
+                name="message"
+                style="resize: none"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary btn-lg px-4 py-2"
+              onclick="sendMail()"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------footer---------------------------------------->
+    <section class="bg-dark">
+      <div class="container text-center bg-dark text-white py-4">
+        <div class="row justify-content-center mb-3">
+          <div class="col-12 col-sm-6 col-md-4 mb-3">
+            Copyright © 2024. All rights reserved.
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          
+          <div class="col-12 d-flex justify-content-center flex-wrap">
+           
+            <div class="mx-4 mb-3">
+              <a href="https://www.instagram.com/nihaalostreetz/" class="footer-icon text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="mx-4 mb-3">
+              <a href="https://twitter.com/nihaalxz" class="footer-icon text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="mx-4 mb-3">
+              <a href="https://github.com/nihaalxz" class="footer-icon text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="mx-4 mb-3">
+              <a href="https://www.linkedin.com/in/nihaal-mohammed-nazer-5a059b213/" class="footer-icon text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

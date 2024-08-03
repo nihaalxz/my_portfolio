@@ -1,0 +1,81 @@
+* {
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 300; */
+    font-style: normal;
+}
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .wave-hand {
+    display: inline-block;
+    transform-origin: 70% 70%;
+    animation: wave 1.5s infinite;
+  }
+#btn-contact
+{
+    border-radius: 20px;
+    padding: 0;
+} 
+.skill-item 
+{
+    transition: transform 0.3s ease-in-out;
+}
+  
+.skill-item:hover 
+{
+    transform: translateY(-10px);
+}
+
+#education{
+background-color: rgb(249, 249, 248);
+border-radius: 20px;
+width: 100%;
+}
+
+  #contact-me {
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+  }
+  
+  .container {
+    background: #ffffff;
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .form-control {
+    border-radius: 25px;
+  }
+  
+  .form-control-lg {
+    padding: 1rem;
+  }
+  
+  .btn {
+    border-radius: 25px;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  }
+  
+  
+
+
+  
+
+  
